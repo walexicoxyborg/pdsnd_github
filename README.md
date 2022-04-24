@@ -15,5 +15,10 @@ bikeshare.py
 ### Credits
 This project refernces https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
 
+### Files ignored
+chicago.csv
+new_york_city.csv
+washington.csv
+
 
 
