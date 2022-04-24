@@ -139,7 +139,7 @@ def station_stats(df):
     print(df['End Station'].value_counts().idxmax())
 
     # TO DO: display most frequent combination of start station and end station trip
-    # Creating a combination of Start station and End Station column
+    
     df['combination']=df['Start Station'] +  ' || ' + df['End Station']
     print(df['combination'].value_counts().idxmax())
 
