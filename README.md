@@ -10,6 +10,9 @@ Explore US bikeshare data
 Gives meaningfull insight to US bikeshare rental data
 
 ### Files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 
 ### Credits
