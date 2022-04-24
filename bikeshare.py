@@ -76,10 +76,10 @@ def load_data(city, month, day):
         df - pandas DataFrame containing city data filtered by month and day
     """
     
-    # load data file into a dataframe
+    # load data file into a dataframe !
     df = pd.read_csv(CITY_DATA[city])
 
-    # convert the Start Time column to datetime
+    # convert the StartTime column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
     # extract month and day of week from Start Time to create new columns
@@ -112,10 +112,10 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: display the most common month!
     print('The Most common month:', df['month'].mode()[0])
 
-    # TO DO: display the most common day of week
+    # TO DO: display the most common day of week!
     print('The Most common day:', df['day_of_week'].mode()[0])
 
     # TO DO: display the most common start hour

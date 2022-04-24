@@ -10,11 +10,10 @@ Explore US bikeshare data
 Gives meaningfull insight to US bikeshare rental data
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+bikeshare.py
 
 ### Credits
 This project refernces https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8
+
 
 
